@@ -3,17 +3,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #0c1953;
+    background: #1d6c8077;
     font-family: Arial, sans-serif;
 }
-
-
-
-
 
 .card {
     background: white;
     width: 400px;
+    height: 500px; /* Increased height */
     border-radius: 15px;
     text-align: center;
     overflow: hidden;
@@ -26,7 +23,7 @@ body {
 
 .background {
     width: 100%;
-    height: 100px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -42,7 +39,8 @@ body {
 }
 
 .info {
-    margin-top: 50px;
+    margin-top: 60px; /* Adjusted for better spacing */
+    padding-bottom: 20px; /* Added extra space */
 }
 
 .info h3 {
@@ -64,7 +62,7 @@ body {
 .stats {
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding:30px;
     border-top: 1px solid #eee;
 }
 
